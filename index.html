@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>摄影博主 | 光影瞬间</title>
+    <title>Photography Portfolio | Moments in Light</title>
     <style>
-        /* 全局样式 */
+        /* Global Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -23,7 +23,7 @@
             text-decoration: underline;
         }
 
-        /* 导航栏样式 */
+        /* Navigation Bar */
         nav {
             background-color: #333;
             padding: 10px 0;
@@ -54,7 +54,7 @@
             color: #ff6f61;
         }
 
-        /* 主要内容区域 */
+        /* Main Content */
         .container {
             max-width: 1200px;
             margin: 40px auto;
@@ -66,7 +66,7 @@
             color: #333;
         }
 
-        /* 画廊样式 */
+        /* Gallery Styles */
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -87,7 +87,7 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
 
-        /* 页脚样式 */
+        /* Footer Styles */
         footer {
             background-color: #333;
             color: #fff;
@@ -97,7 +97,7 @@
             box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* 主页链接样式 */
+        /* Homepage Links */
         .gallery-links {
             display: flex;
             justify-content: center;
@@ -125,7 +125,7 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
 
-        /* 隐藏页面 */
+        /* Hide Pages */
         .page {
             display: none;
         }
@@ -136,88 +136,88 @@
     </style>
 </head>
 <body>
-    <!-- 导航栏 -->
+    <!-- Navigation Bar -->
     <nav>
         <ul>
-            <li><a href="#" onclick="showPage('home')">主页</a></li>
-            <li><a href="#" onclick="showPage('nature')">自然</a></li>
-            <li><a href="#" onclick="showPage('portraits')">人像</a></li>
-            <li><a href="#" onclick="showPage('city')">城市</a></li>
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('nature')">Nature Horizon</a></li>
+            <li><a href="#" onclick="showPage('city')">Living Landscapes</a></li>
+            <li><a href="#" onclick="showPage('portraits')">Human Echoes</a></li>
         </ul>
     </nav>
 
-    <!-- 主页 -->
+    <!-- Home Page -->
     <div id="home" class="page active">
         <div class="container">
-            <h1>欢迎来到我的摄影世界</h1>
-            <p>探索我的不同摄影作品集：</p>
+            <h1>Welcome to My Photography World</h1>
+            <p>Explore my different photography collections:</p>
             <div class="gallery-links">
                 <a href="#" class="gallery-link" onclick="showPage('nature')">
-                    <img src="nature-thumbnail.jpg" alt="自然摄影集">
-                    <p>自然摄影集</p>
-                </a>
-                <a href="#" class="gallery-link" onclick="showPage('portraits')">
-                    <img src="portraits-thumbnail.jpg" alt="人像摄影集">
-                    <p>人像摄影集</p>
+                    <img src="nature-thumbnail.jpg" alt="Nature Horizon">
+                    <p>Nature Horizon</p>
                 </a>
                 <a href="#" class="gallery-link" onclick="showPage('city')">
-                    <img src="city-thumbnail.jpg" alt="城市摄影集">
-                    <p>城市摄影集</p>
+                    <img src="city-thumbnail.jpg" alt="Living Landscapes">
+                    <p>Living Landscapes</p>
+                </a>
+                <a href="#" class="gallery-link" onclick="showPage('portraits')">
+                    <img src="portraits-thumbnail.jpg" alt="Human Echoes">
+                    <p>Human Echoes</p>
                 </a>
             </div>
         </div>
     </div>
 
-    <!-- 自然摄影集 -->
+    <!-- Nature Horizon -->
     <div id="nature" class="page">
         <div class="container">
-            <h1>自然摄影集</h1>
+            <h1>Nature Horizon</h1>
             <div class="gallery">
-                <img src="nature1.jpg" alt="自然照片1">
-                <img src="nature2.jpg" alt="自然照片2">
-                <img src="nature3.jpg" alt="自然照片3">
+                <img src="nature1.jpg" alt="Nature Photo 1">
+                <img src="nature2.jpg" alt="Nature Photo 2">
+                <img src="nature3.jpg" alt="Nature Photo 3">
             </div>
         </div>
     </div>
 
-    <!-- 人像摄影集 -->
-    <div id="portraits" class="page">
-        <div class="container">
-            <h1>人像摄影集</h1>
-            <div class="gallery">
-                <img src="portraits1.jpg" alt="人像照片1">
-                <img src="portraits2.jpg" alt="人像照片2">
-                <img src="portraits3.jpg" alt="人像照片3">
-            </div>
-        </div>
-    </div>
-
-    <!-- 城市摄影集 -->
+    <!-- Living Landscapes -->
     <div id="city" class="page">
         <div class="container">
-            <h1>城市摄影集</h1>
+            <h1>Living Landscapes</h1>
             <div class="gallery">
-                <img src="city1.jpg" alt="城市照片1">
-                <img src="city2.jpg" alt="城市照片2">
-                <img src="city3.jpg" alt="城市照片3">
+                <img src="city1.jpg" alt="City Photo 1">
+                <img src="city2.jpg" alt="City Photo 2">
+                <img src="city3.jpg" alt="City Photo 3">
             </div>
         </div>
     </div>
 
-    <!-- 页脚 -->
+    <!-- Human Echoes -->
+    <div id="portraits" class="page">
+        <div class="container">
+            <h1>Human Echoes</h1>
+            <div class="gallery">
+                <img src="portraits1.jpg" alt="Portrait Photo 1">
+                <img src="portraits2.jpg" alt="Portrait Photo 2">
+                <img src="portraits3.jpg" alt="Portrait Photo 3">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 摄影博主 | 用镜头记录世界</p>
+        <p>&copy; 2023 Photography Portfolio | Capturing Moments in Light</p>
     </footer>
 
-    <!-- 页面切换脚本 -->
+    <!-- Page Switching Script -->
     <script>
         function showPage(pageId) {
-            // 隐藏所有页面
+            // Hide all pages
             document.querySelectorAll('.page').forEach(page => {
                 page.classList.remove('active');
             });
 
-            // 显示目标页面
+            // Show the target page
             document.getElementById(pageId).classList.add('active');
         }
     </script>
